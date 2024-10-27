@@ -201,7 +201,7 @@ nav {
 }
 
 .section-2 {
-    width: 100%;
+    width: calc(100%-5%);
     height: 880px;
     padding: 50px 20px;
 }
@@ -395,7 +395,7 @@ img {
 }
 
 .cta {
-    width: 1440px;
+    width: calc(100% - 60px);
     height: 150px;
     background: #DEE6FF;
     border-radius: 20px;
