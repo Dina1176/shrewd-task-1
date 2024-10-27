@@ -159,12 +159,36 @@ nav {
 .why-choose-icon {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 10px;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
     gap: 30px;
 }
+
+.why-choose-icon-box {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon-box {
+    flex: 0 1 calc(20% - 1em);
+    flex-basis: auto;
+    padding: 5PX 10px;
+    margin: 5PX;
+    border: 1px solid #afafaf86;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.icon-box-out {
+    background-color: #f7f7f7;
+}
+
 
 .why-choose-icon>li {
     padding: 15px;
